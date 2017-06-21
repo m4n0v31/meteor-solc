@@ -17,7 +17,7 @@ handles the compilation of `*.sol` files to JS.
 
 ## Installation
 
-    $ meteor add silentcicero:solc
+    $ meteor add flindsey:solc
 
 ## Examples
 
@@ -25,9 +25,9 @@ Examples of `.sol` files with Meteor can be found in the <a href="http://github.
 
 ## Usage
 
-Code in the Solidity programming language as you normally would in `.sol` files. 
+Code in the Solidity programming language as you normally would in `.sol` files.
 The location of the `.sol` file will determine the placement of its contract's web3 JS object.
-Currently, `meteor-solc` will compile and deliver the contract of the document it's named after, so `NameReg.sol` will provide a global contract object for the `NameReg` contract within that document. 
+Currently, `meteor-solc` will compile and deliver the contract of the document it's named after, so `NameReg.sol` will provide a global contract object for the `NameReg` contract within that document.
 Compiled contract byte code will come attached to the contract object as the `.bytecode` string property (see example below).
 
 ```
@@ -71,8 +71,8 @@ myContractInstance.get.call(...);
 
 ## About
 
-The idea behind `meteor-solc` is to make building a Meteor dApp extremely fluent. Now you don't need to think about contract compiling and placement. The `.sol` file type is used just like `.less` or any other pre-compiled document and converted into a `.js` file. 
-Let Meteor's compiling platform take care of load staging and JS preparation. 
+The idea behind `meteor-solc` is to make building a Meteor dApp extremely fluent. Now you don't need to think about contract compiling and placement. The `.sol` file type is used just like `.less` or any other pre-compiled document and converted into a `.js` file.
+Let Meteor's compiling platform take care of load staging and JS preparation.
 
 ## Error Handling
 
