@@ -17,4 +17,4 @@ es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 frozeman:template-var
 ethereum:web3
-silentcicero:solc@0.2.1
+m4n0v31:solc@0.4.16

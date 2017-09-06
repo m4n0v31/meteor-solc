@@ -21,7 +21,7 @@ handles the compilation of `*.sol` files to JS.
 
 ## Examples
 
-Examples of `.sol` files with Meteor can be found in the <a href="http://github.com/silentcicero/meteor-solc/master/blob/examples">examples</a> directory.
+Examples of `.sol` files with Meteor can be found in the <a href="https://github.com/m4n0v31/meteor-solc/tree/master/examples">examples</a> directory.
 
 ## Usage
 
