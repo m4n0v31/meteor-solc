@@ -17,7 +17,7 @@ handles the compilation of `*.sol` files to JS.
 
 ## Installation
 
-    $ meteor add flindsey:solc
+    $ meteor add m4n0v31:solc
 
 ## Examples
 
@@ -91,4 +91,4 @@ All compiling errors will appear in your Meteor terminal and in the browser, the
 
 meteor-solc is under the MIT License type.
 
-Copyright (c) 2015 Nick Dodson. http://nickdodson.com
+Copyright (c) 2017 m4n0v31

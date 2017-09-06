@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'silentcicero:solc',
+  name: 'm4n0v31:solc',
   summary: 'The solc package provides a compiler build plugin for the Meteor build tool.',
-  version: '0.4.11',
-  git: 'http://github.com/SilentCicero/meteor-solc'
+  version: '0.4.16',
+  git: 'http://github.com/m4n0v31/meteor-solc'
 });
 
 Package.registerBuildPlugin({
@@ -17,7 +17,7 @@ Package.registerBuildPlugin({
     "plugin/handler.js",
   ],
   npmDependencies: {
-    "solc": "0.4.11"
+    "solc": "0.4.16"
   }
 });
 
