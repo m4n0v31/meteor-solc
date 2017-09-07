@@ -1,4 +1,5 @@
 # Solidity for Meteor
+This package is a fork of silentcicero:meteor-solc package with updated dependecies.
 The solc package provides a compiler build plugin for the Meteor build tool. It
 handles the compilation of `*.sol` files to JS.
 
@@ -59,7 +60,7 @@ myContractInstance.get.call(...);
 
 ## Compiler
 
-`meteor-solc` depends on the `meteor-solc-compiler` package which contains just the SOL compiler. The compiler is built with the Ethereum solc compiler. The solc compiler is available below for both Meteor and NPM:
+`meteor-solc` depends on the `solc` npm package which contains the Ethereum solc compiler. The solc compiler is available below for both Meteor and NPM:
 
 ### NPM
 
@@ -67,7 +68,7 @@ myContractInstance.get.call(...);
 
 ### Meteor
 
-    $ meteor add silentcicero:solc-compiler
+    $ meteor add m4n0v31:solc
 
 ## About
 
@@ -92,3 +93,4 @@ All compiling errors will appear in your Meteor terminal and in the browser, the
 meteor-solc is under the MIT License type.
 
 Copyright (c) 2017 m4n0v31
+
