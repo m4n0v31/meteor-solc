@@ -30,7 +30,7 @@ class SolidityCompiler extends CachingCompiler {
 
 		if (has(output, 'errors'))
 			return inputFile.error({
-				message: "Solidity errors: " + String(output.errors)
+				message: "Solidity errors during compile: " + String(output.errors)
 			});
 		
 		var results = output,
