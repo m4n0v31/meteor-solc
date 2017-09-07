@@ -34,6 +34,7 @@ jquery@1.11.4
 launch-screen@1.0.4
 livedata@1.0.15
 logging@1.0.8
+m4n0v31:solc@0.4.20
 meteor@1.1.9
 meteor-base@1.0.1
 minifiers@1.1.7
@@ -53,8 +54,6 @@ reload@1.1.4
 retry@1.0.4
 routepolicy@1.0.6
 session@1.1.1
-m4n0v31:solc@0.4.16
-silentcicero:solc-compiler@0.1.5-1
 spacebars@1.0.7
 spacebars-compiler@1.0.7
 standard-minifiers@1.0.1
